@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width
+    , initial-scale=1.0"
+    />
+    <title>Priyanshu-Portfolio</title>
+    <meta name="viewport" content="width=device-width,scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&family=Ysabeau+Infant:ital,wght@0,100;0,500;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav>
+      <label class="logo">Priyanshu's Portfolio</label>
+
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li class="links"><a href="#about ">About</a></li>
+        <li><a href="./Skill.html">Skills</a></li>
+        <li><a href="./Contact.html">Contact Me</a></li>
+        <li><a href="./Hobbies.html">Hobbies</a></li>
+      </ul>
+      <label id="icon">
+        <i class="fas fa-bars"></i>
+      </label>
+    </nav>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple">Priyanshu</span>
+          <div>and I am a Passionate</div>
+
+          <span id="element"></span>
+        </div>
+
+        <div class="rightsection"><img src="h1.png" alt="" /></div>
+      </section>
+
+      <hr />
+      <section id="about">
+        <span class="text-gray">More About Myself</span>
+        <h1>About Me</h1>
+
+        <h2>Hi, I am Priyanshu Pandey,</h2>
+        <div>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus modi voluptatum explicabo blanditiis magnam! Suscipit
+          dolore, velit quasi corrupti alias quia minima? Sapiente vitae itaque
+          expedita eveniet neque magnam earum.
+        </div>
+        <div>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel sequi
+          ipsam doloribus, mollitia veritatis pariatur corporis dolorum ratione
+          quasi soluta sit quas impedit neque debitis hic ad eius et assumenda.
+        </div>
+
+        <div class="box"></div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footercontainer">
+        <div class="socialicons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-rights">
+        copyright &#169;priyanshusportfolio.com | All rights reserved
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Programmer", "Web Designer."],
+        typeSpeed: 50,
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
