@@ -14,58 +14,59 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&family=Ysabeau+Infant:ital,wght@0,100;0,500;1,200&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script
-  src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('#icon').click(function(){
-        $('ul').toggleClass('show');
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
+        });
       });
-    });
-      
-    
-
-  </script>
-   
+    </script>
   </head>
   <body>
- 
-      <nav>
-        <label class="logo">Priyanshu's Portfolio</label>
-       
-          <ul>
-            <li ><a href="./index.html">Home</a></li>
-            <li ><a href="./index.html#about">About</a></li>
-            <li><a href="./Skill.html">Skills</a></li>
-            <li><a href="./Contact.html">Contact Me</a></li>
-            <li><a href="./Hobbies.html">Hobbies</a></li>
-          </ul>
-          <label id="icon">
-            <i class="fas fa-bars"></i>
-          </label>
-     
-      </nav>
-   
+    <nav>
+      <label class="logo">Priyanshu's Portfolio</label>
+
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./index.html#about">About</a></li>
+        <li><a href="./Skill.html">Skills</a></li>
+        <li><a href="./Contact.html">Contact Me</a></li>
+        <li><a href="./Hobbies.html">Hobbies</a></li>
+      </ul>
+      <label id="icon">
+        <i class="fas fa-bars"></i>
+      </label>
+    </nav>
+
     <main>
-        <div class="input">
-            <h1>My Skills</h1>
-            <div class="skillcontainer">
-              <div class="skillItem"> HTML : <div class="skill hundred"></div></div> 
-            <div class="skillItem">  CSS : <div class="skill fifty" ></div></div>  
-              <div class="skillItem">  PYTHON : <div class="skill hundred  "></div></div>
-               <div class="skillItem"> C : <div class="skill t5"></div></div>
-              <div class="skillItem">  JS: <div class="skill fifty"></div></div>
-            
-
-            </div>
-            
-        </div>
-      
-    
-      
+      <div class="skill">
+        <h1>My Skill</h1>
+        <li>
+          <h3>html</h3>
+          <span class="bar"><span class="html"></span></span>
+        </li>
+        <li>
+          <h3>css</h3>
+          <span class="bar"><span class="css"></span></span>
+        </li>
+        <li>
+          <h3>php</h3>
+          <span class="bar"><span class="php"></span></span>
+        </li>
+        <li>
+          <h3>javascript</h3>
+          <span class="bar"><span class="javascript"></span></span>
+        </li>
+      </div>
     </main>
-
   </body>
 </html>
